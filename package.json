@@ -1,0 +1,58 @@
+{
+  "name": "construction-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://raviojha007.github.io/ARCHITECTS-PROJECT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-image-lightbox": "^5.1.1",
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "simplelightbox": "^2.2.1",
+    "tachyons-components": "^1.0.1"
+  },
+  "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/Images/*",
+      "./src/assets/Images/blades-house/*",
+      "./src/assets/Images/bunglow/*",
+      "./src/assets/Images/court_building_silvassa/*",
+      "./src/assets/Images/eugene-arcade/*",
+      "./src/assets/Images/foodmall-baroda/*",
+      "./src/assets/Images/gwalior-resort/*",
+      "./src/assets/Images/MCT-House/*",
+      "./src/assets/Images/mct-house-interiors/*",
+      "./src/assets/Images/mla-housing-jaipur/*",
+      "./src/assets/Images/rendering-services/*"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

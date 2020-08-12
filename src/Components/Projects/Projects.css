@@ -1,0 +1,99 @@
+.links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: small;
+  font-weight: bolder;
+}
+.nav-item a:hover {
+  color: gray !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin: auto;
+  margin-top: 20px;
+  height: 50px;
+}
+.Tag-Line {
+  font-family: "Pacifico", cursive;
+}
+.proImage {
+  height: 100% !important;
+  width: 100% !important;
+}
+.main_div {
+  position: relative;
+  overflow: hidden;
+}
+
+.pro_image {
+  border: 2px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  z-index: -1;
+}
+
+.proImage:hover {
+  opacity: 0.7;
+  transform: scale(1.5);
+  transition: all 0.5s;
+  border: 2px solid black;
+}
+
+.Tag-Line_outer {
+  height: 190px;
+}
+.plus_icon {
+  color: white;
+  display: block;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 210px;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 12px;
+
+  margin-left: 20px;
+}
+.collapse {
+  margin-left: 220px !important;
+
+  /* max-width: 60% !important; */
+}
+.logo {
+  width: 80%;
+  height: 80% !important;
+  object-fit: contain !important;
+  /* margin: 20px; */
+}
+@media only screen and (max-width: 900px) {
+  .collapse {
+    margin-left: 0px !important;
+    padding: 0px !important;
+  }
+  .collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 10.5px;
+
+    margin-left: 5px;
+  }
+
+  .logo {
+    width: 80%;
+    height: 80% !important;
+    object-fit: contain !important;
+  }
+  .plus_icon {
+    color: white;
+
+    margin-top: 90px;
+    margin-left: 140px;
+  }
+}

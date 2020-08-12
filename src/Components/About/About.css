@@ -1,0 +1,23 @@
+.About__div {
+  /* background-image: url("https://zzarchitects.net/wp-content/uploads/2018/11/IMG_2663.jpeg") !important; */
+  background-color: #364f6b;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+h1 {
+  color: white;
+}
+ul li {
+  color: white;
+  font-weight: bolder;
+}
+i:hover {
+  color: blue !important;
+}
